@@ -23,6 +23,11 @@
     text-align: center;
     }
 
+   
+  .brillo {
+  width: 100%;
+  filter: brightness(40%);
+  }
 
 .diapositiva {
   position: absolute;
@@ -54,10 +59,10 @@
     } 
 
  
-  @media (max-width: 700px)  {  
+  @media screen and (max-width: 767px)  {  
     .pie-pagina {
       background-color: #214d67;
-      text-align: left ;
+      text-align: center ;
       padding:0px;
       margin:0px;
       height: 150px;
@@ -65,7 +70,7 @@
       }
             }
 
- @media (max-width: 700px)  {  
+ @media screen and (max-width: 767px)  {  
     .diapositiva {
       position: absolute;
       top: 1px;
@@ -80,7 +85,7 @@
 
                 }
                       }
-  @media (max-width: 700px)  {  
+  @media screen and (max-width: 767px)  {  
     .diapositiva button {
       width: 200px;
       height: 30px;
